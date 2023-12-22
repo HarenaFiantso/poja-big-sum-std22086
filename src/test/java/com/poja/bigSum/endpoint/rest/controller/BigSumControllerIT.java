@@ -9,8 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 @PojaGenerated
 public class BigSumControllerIT extends FacadeIT {
 
-  @Autowired
-  BigSumController bigSumController;
+  @Autowired BigSumController bigSumController;
 
   @Test
   void test_big_sum_endpoint() {

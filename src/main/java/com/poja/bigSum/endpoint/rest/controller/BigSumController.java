@@ -1,11 +1,10 @@
 package com.poja.bigSum.endpoint.rest.controller;
 
 import com.poja.bigSum.PojaGenerated;
+import java.math.BigInteger;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.math.BigInteger;
 
 @PojaGenerated
 @RestController
